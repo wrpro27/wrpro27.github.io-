@@ -1,3 +1,100 @@
-body {
-  color: red;
+.header {
+  background-color: #96b3d7;
+  overflow: hidden;
+  padding: 20px 10px;
+  width: 98%;
+  border-radius: 10px;
 }
+
+.header a {
+  background-color: #f8b38c;
+  float: left;
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: monaco, monospace;
+  color: black;
+  border-style: outset;
+}
+
+.header a:hover {
+  background-color: gray;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  border-style: inset;
+}
+
+.header a.active {
+  background-color: #f5b4f0;
+}
+
+.header a.active:hover {
+  background-color: gray;
+}
+
+.header-right {
+  float: right;
+  background-color: #96b3d7;
+}
+
+#card-holder {
+  border: 1px black solid;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.senior-project {
+  width: 48%;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: #96b3d7;
+}
+
+#image-slide {
+  width: 48%;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#image-one {
+  padding: 5px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card-header {
+  background-color: gray;
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: cursive;
+  color: black;
+}
+
+a.logo {
+  background-color: #bcfbdd;
+}
+
+/* the logo class selector not working how I wanted, I want my name to be in the pastel green color and I want that to be the title page */
+
+* {
+  background-color: gray;
+}
+
+#personal-content {
+  background-color: #96b3d7;
+}
+
