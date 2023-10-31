@@ -71,6 +71,7 @@
   padding: 5px;
   overflow: hidden;
   margin: auto;
+
 }
 
 .card-header {
@@ -90,7 +91,7 @@ a.logo {
 
 /* the logo class selector not working how I wanted, I want my name to be in the pastel green color and I want that to be the title page */
 
-* {
+body {
   background-color: gray;
 }
 
@@ -98,3 +99,12 @@ a.logo {
   background-color: #96b3d7;
 }
 
+.profile-picture {
+  width: 180px;
+  height: auto;
+  border-radius: 100px;
+  background-color:#96b3d7;
+  border-width: 10px;
+  border-color: black;
+  border-style: solid;
+}
