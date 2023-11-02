@@ -1,15 +1,20 @@
 .header {
-  background-color: #96b3d7;
+  background-color: #9bbafa;
   overflow: hidden;
   padding: 20px 10px;
-  width: 98%;
-  border-radius: 10px;
+  width: 95%;
+  border-width: 20px;
+  border: 20px black solid;
+  border-radius: 20px;
 }
 
 .header a {
-  background-color: #f8b38c;
+  background-color: #bcc0f6;
+  border-width: 3px;
+  border-color: whitesmoke;
   float: left;
   padding: 5px 20px;
+  margin: 5px;
   font-size: 16px;
   border-radius: 10px;
   text-decoration: none;
@@ -26,7 +31,7 @@
 }
 
 .header a.active {
-  background-color: #f5b4f0;
+  background-color: #f6ccbe;
 }
 
 .header a.active:hover {
@@ -35,14 +40,13 @@
 
 .header-right {
   float: right;
-  background-color: #96b3d7;
 }
 
 #card-holder {
   border: 1px black solid;
   width: 100%;
   border-radius: 10px;
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   flex-flow: row wrap;
 }
@@ -53,7 +57,7 @@
   border: 1px black solid;
   padding: 5px;
   margin: 5px;
-  background-color: #96b3d7;
+  background-color: #9bbafa;
 }
 
 #image-slide {
@@ -75,7 +79,7 @@
 }
 
 .card-header {
-  background-color: gray;
+  background-color: whitesmoke;
   text-align: center;
   padding: 5px;
   font-size: 40px;
@@ -86,25 +90,111 @@
 }
 
 a.logo {
-  background-color: #bcfbdd;
+  padding: none;
+  border-width: 3px;
+  border-color: whitesmoke;
+  float: left;
+  border-radius: 10px;
+  text-decoration: none;
+  border-style: outset;
+  background-color: black;
 }
 
 /* the logo class selector not working how I wanted, I want my name to be in the pastel green color and I want that to be the title page */
 
 body {
-  background-color: gray;
+  background-color: whitesmoke;
 }
 
 #personal-content {
-  background-color: #96b3d7;
+  background-color: #9bbafa;
 }
 
 .profile-picture {
   width: 180px;
   height: auto;
   border-radius: 100px;
-  background-color:#96b3d7;
+  background-color:#a4fcf5;
   border-width: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+#initials {
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: black;
+}
+
+.contact-info {
+  text-align: center;
+  width: 48%;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: #9bbafa;
+}
+
+.work-exp {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: #9bbafa;
+}
+
+.project-cards {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 5px;
+  background-color: #9bbafa;
+}
+
+#linkedin {
+  height: 100px;
+  background-color:#9bbafa;
+}
+
+#linkedin:hover {
+  border: gray;
+  text-decoration: none;
+  border-width: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  border-style: inset;
+
+}
+
+.mcmullen-picture {
+  width: 320px;
+  height: auto;
+  border-radius: 100px;
+  background-color:#a4fcf5;
+  border-width: 8px;
+  border-color: black;
+  border-style: solid;
+}
+
+#buba {
+  width: 240px;
+  height: auto;
+  border-radius: 50px;
+  background-color:#a4fcf5;
+  border-width: 8px;
+  border-color: black;
+  border-style: solid;
+}
+
+#baseball {
+  width: 240px;
+  height: auto;
+  border-radius: 50px;
+  background-color:#a4fcf5;
+  border-width: 8px;
   border-color: black;
   border-style: solid;
 }
